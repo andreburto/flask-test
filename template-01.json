@@ -1,0 +1,38 @@
+[
+  {
+    "ParameterKey": "ASGDesired",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "ASGMax",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "ASGMin",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "HostedZoneId",
+    "ParameterValue": "ZMWA8O6ANKCDQ"
+  },
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "flask"
+  },
+  {
+    "ParameterKey": "MainDomain",
+    "ParameterValue": "mothersect.info"
+  },
+  {
+    "ParameterKey": "Subdomain",
+    "ParameterValue": "flask"
+  },
+  {
+    "ParameterKey": "SubnetId",
+    "ParameterValue": "subnet-025d633ac8f2916d8,subnet-0b5333f70fe1ec37e"
+  },
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-0c0de6f8d4816ed4d"
+  }
+]
