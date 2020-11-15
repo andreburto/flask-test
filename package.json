@@ -1,0 +1,13 @@
+{
+  "name": "flask-test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "5.6.0"
+  },
+  "scripts": {
+    "app:build": "docker build --tag flask-test:latest .",
+    "app:run": "docker run -d --rm -p 8000:8000 flask-test:latest",
+    "app:stop": "docker stop $(docker ps | grep -v CONTAINER | awk '{print $1}')",
+    "cy:open": "./node_modules/.bin/cypress open"
+  }
+}

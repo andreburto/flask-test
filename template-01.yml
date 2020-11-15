@@ -44,7 +44,6 @@ Resources:
 
   EcsSecurityGroup:
     Type: AWS::EC2::SecurityGroup
-
     Properties:
       GroupDescription: ECS Security Group
       VpcId: !Ref 'VpcId'
